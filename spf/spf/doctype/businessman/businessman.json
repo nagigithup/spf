@@ -1,0 +1,152 @@
+{
+    "doctype": "DocType",
+    "name": "Businessman",
+    "module": "SPF",
+    "custom": 1,
+    "fields": [
+     {
+      "fieldname": "full_name",
+      "fieldtype": "Data",
+      "label": "Full Name",
+      "reqd": 1,
+      "description": "الاسم الكامل لرجل الأعمال"
+     },
+     {
+      "fieldname": "nickname",
+      "fieldtype": "Data",
+      "label": "Nickname",
+      "description": "اسم الشهرة"
+     },
+     {
+      "fieldname": "nationality",
+      "fieldtype": "Data",
+      "label": "Nationality",
+      "default": "Sudanese",
+      "description": "الجنسية"
+     },
+     {
+      "fieldname": "birth_date",
+      "fieldtype": "Date",
+      "label": "Birth Date",
+      "description": "تاريخ الميلاد"
+     },
+     {
+      "fieldname": "id_number",
+      "fieldtype": "Data",
+      "label": "ID Number",
+      "description": "رقم الهوية أو جواز السفر"
+     },
+     {
+      "fieldname": "phone_number",
+      "fieldtype": "Data",
+      "label": "Phone Number",
+      "reqd": 1,
+      "description": "رقم الجوال"
+     },
+     {
+      "fieldname": "personal_email",
+      "fieldtype": "Data",
+      "label": "Personal Email",
+      "description": "البريد الشخصي"
+     },
+     {
+      "fieldname": "company_email",
+      "fieldtype": "Data",
+      "label": "Company Email",
+      "description": "البريد الرسمي الخاص بالشركة"
+     },
+     {
+      "fieldname": "address",
+      "fieldtype": "Small Text",
+      "label": "Address",
+      "description": "العنوان الدائم"
+     },
+     {
+      "fieldname": "current_city",
+      "fieldtype": "Data",
+      "label": "Current City",
+      "description": "مكان الإقامة الحالي"
+     },
+     {
+      "fieldname": "linkedin_profile",
+      "fieldtype": "Data",
+      "label": "LinkedIn Profile",
+      "description": "رابط حساب لينكدإن"
+     },
+     {
+      "fieldname": "company_name",
+      "fieldtype": "Data",
+      "label": "Company Name",
+      "reqd": 1,
+      "description": "اسم الشركة"
+     },
+     {
+      "fieldname": "business_sector",
+      "fieldtype": "Select",
+      "label": "Business Sector",
+      "options": "Agriculture\nReal Estate\nCommerce\nConstruction\nIndustry\nTechnology",
+      "description": "القطاع الاقتصادي"
+     },
+     {
+      "fieldname": "job_title",
+      "fieldtype": "Data",
+      "label": "Job Title",
+      "description": "المنصب الوظيفي"
+     },
+     {
+      "fieldname": "business_size",
+      "fieldtype": "Select",
+      "label": "Business Size",
+      "options": "Small\nMedium\nLarge",
+      "description": "حجم الأعمال"
+     },
+     {
+      "fieldname": "target_markets",
+      "fieldtype": "MultiSelect",
+      "label": "Target Markets",
+      "options": "Local\nRegional\nInternational",
+      "description": "الأسواق المستهدفة"
+     },
+     {
+      "fieldname": "memberships",
+      "fieldtype": "Small Text",
+      "label": "Memberships",
+      "description": "عضوية المنظمات أو الغرف التجارية"
+     },
+     {
+      "fieldname": "awards",
+      "fieldtype": "Small Text",
+      "label": "Awards",
+      "description": "الجوائز والتكريمات"
+     },
+     {
+      "fieldname": "major_projects",
+      "fieldtype": "Small Text",
+      "label": "Major Projects",
+      "description": "مشاريع بارزة"
+     },
+     {
+      "fieldname": "notes",
+      "fieldtype": "Text Editor",
+      "label": "Notes",
+      "description": "ملاحظات إضافية"
+     },
+     {
+      "fieldname": "businessman_events",
+      "fieldtype": "Table",
+      "label": "Events Attended",
+      "options": "Businessman Event",
+      "description": "الفعاليات التي شارك بها"
+     }
+    ],
+    "permissions": [
+     {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+     }
+    ]
+   }
+   

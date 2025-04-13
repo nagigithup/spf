@@ -1,0 +1,44 @@
+{
+    "doctype": "DocType",
+    "name": "Businessman Event",
+    "module": "SPF",
+    "custom": 1,
+    "istable": 1,
+    "fields": [
+     {
+      "fieldname": "event_name",
+      "fieldtype": "Data",
+      "label": "Event Name",
+      "reqd": 1,
+      "description": "اسم الفعالية"
+     },
+     {
+      "fieldname": "event_date",
+      "fieldtype": "Date",
+      "label": "Event Date",
+      "description": "تاريخ الفعالية"
+     },
+     {
+      "fieldname": "event_location",
+      "fieldtype": "Data",
+      "label": "Event Location",
+      "description": "مكان إقامة الفعالية"
+     },
+     {
+      "fieldname": "event_notes",
+      "fieldtype": "Small Text",
+      "label": "Event Notes",
+      "description": "ملاحظات إضافية عن الفعالية"
+     }
+    ],
+    "permissions": [
+     {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+     }
+    ]
+   }
+   
